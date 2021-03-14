@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-03-14T23:17:08Z" name="Default suite" finished-at="2021-03-14T23:17:33Z" duration-ms="25126">
+    <groups>
+    </groups>
+    <test started-at="2021-03-14T23:17:08Z" name="Default test" finished-at="2021-03-14T23:17:33Z" duration-ms="25126">
+      <class name="Testing.Automation.TestPage">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Testing.Automation.TestPage@1e0b4072]" started-at="2021-03-15T01:17:08Z" name="setup" finished-at="2021-03-15T01:17:12Z" duration-ms="3869" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="beforeEachTest(java.lang.reflect.Method)[pri:0, instance:Testing.Automation.TestPage@1e0b4072]" started-at="2021-03-15T01:17:12Z" name="beforeEachTest" finished-at="2021-03-15T01:17:12Z" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Testing.Automation.TestPage.SelectProduct() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEachTest -->
+        <test-method signature="SelectProduct()[pri:0, instance:Testing.Automation.TestPage@1e0b4072]" started-at="2021-03-15T01:17:12Z" name="SelectProduct" finished-at="2021-03-15T01:17:32Z" duration-ms="20177" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectProduct -->
+        <test-method is-config="true" signature="afterEachTest(org.testng.ITestResult)[pri:0, instance:Testing.Automation.TestPage@1e0b4072]" started-at="2021-03-15T01:17:32Z" name="afterEachTest" finished-at="2021-03-15T01:17:32Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SelectProduct status=SUCCESS method=TestPage.SelectProduct()[pri:0, instance:Testing.Automation.TestPage@1e0b4072] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTest -->
+        <test-method is-config="true" signature="close()[pri:0, instance:Testing.Automation.TestPage@1e0b4072]" started-at="2021-03-15T01:17:32Z" name="close" finished-at="2021-03-15T01:17:33Z" duration-ms="1062" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- Testing.Automation.TestPage -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
